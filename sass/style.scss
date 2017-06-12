@@ -1,0 +1,32 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { padding: 5px; }
+
+  button {
+      color: #fff;
+      background-color: #337ab7;
+      border-color: #2e6da4;
+
+      &:focus, .focus {
+        color: #fff;
+        background-color: #286090;
+        border-color: #122b40;
+      }
+      &:hover{
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
+      }
+  }
+}
